@@ -1,34 +1,30 @@
-# Aqua Flower Home Assistant Integration
+# Aqua Flower Dashboard
 
-Aqua Flower is a smart irrigation system integrated with Home Assistant, designed to automate watering schedules with ease. This repository provides the necessary configurations and resources to set up and manage Aqua Flower through Home Assistant.
+This repository provides a preconfigured Lovelace dashboard for the Aqua Flower smart irrigation system, designed for use with Home Assistant.
 
 ## Features
 
-- **Automated Watering**: Set up customizable timers and zones for precise irrigation control.
-- **Seamless Integration**: Easily monitor and control your irrigation system from Home Assistant.
-- **User-Friendly Interface**: Includes a custom Lovelace dashboard for intuitive operation.
+- Custom Lovelace dashboard for intuitive control of the Aqua Flower system.
+- Pre-configured views and controls for managing irrigation zones and schedules.
 
 ## Installation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/theaquaflower/Aqua_Flower_HA.git
+1. **Add Custom Repository in HACS:**
+   - Go to HACS in Home Assistant.
+   - Add this repository as a custom repository using the URL:
+     ```
+     https://github.com/theaquaflower/Aqua_Flower_HA
+     ```
+   - Select the appropriate category (`Plugin` or `Dashboard`).
 
-2. **Set Up Home Assistant:
-    Follow the instructions in the home_assistant/ directory to set up the necessary configurations and integrations.
+2. **Install and Set Up:**
+   - Install the repository via HACS.
+   - Import the provided dashboard configuration from `dashboards/aqua_flower_dashboard.yaml`.
 
-3. **Deploy Lovelace Dashboard:
-    Import the provided Lovelace dashboard configurations from dashboards/my_watering_system.yaml.
-
-4. **Add Custom Cards:
-    Place custom Lovelace cards in the www/custom-lovelace/ directory of your Home Assistant configuration.
-
-## Usage
-    Access the Aqua Flower dashboard in Home Assistant.
-    Use the provided controls to manage irrigation zones, set timers, and monitor water usage.
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+3. **Usage:**
+   - Access the Aqua Flower dashboard through Home Assistant's Lovelace interface.
+   - Use the dashboard to manage irrigation zones and schedules.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
