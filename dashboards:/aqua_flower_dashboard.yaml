@@ -8,10 +8,9 @@ views:
             card_mod:
               style: |
                 ha-card {
-                  background: url("/local/themes/wedding.jpeg");
-                  background-size: cover;
-                  border-style: none;
-                  padding-top: 10px; /* Adjust the value as needed */
+                background: transparent;
+                border-style: none;
+                text-align: center;
                 }
             cards:
               - type: vertical-stack
@@ -53,11 +52,10 @@ views:
                     card_mod:
                       style: |
                         ha-card {
-                          background: url("/local/themes/wedding.jpeg");
-                          background-size: cover;
-                          border-style: none;
-                          padding-top: 10px; /* Adjust the value as needed */
-                        }
+                         background: transparent;
+                         border-style: none;
+                         text-align: center;
+                         }
                     cards:
                       - type: vertical-stack
                         cards:
@@ -95,11 +93,10 @@ views:
                     card_mod:
                       style: |
                         ha-card {
-                          background: url("/local/themes/wedding.jpeg");
-                          background-size: cover;
-                          border-style: none;
-                          padding-top: 10px; /* Adjust the value as needed */
-                        }
+                         background: transparent;
+                         border-style: none;
+                         text-align: center;
+                         }
                     cards:
                       - type: vertical-stack
                         cards:
@@ -137,11 +134,10 @@ views:
                     card_mod:
                       style: |
                         ha-card {
-                          background: url("/local/themes/wedding.jpeg");
-                          background-size: cover;
-                          border-style: none;
-                          padding-top: 10px; /* Adjust the value as needed */
-                        }
+                         background: transparent;
+                         border-style: none;
+                         text-align: center;
+                         }
                     cards:
                       - type: vertical-stack
                         cards:
@@ -179,11 +175,10 @@ views:
                     card_mod:
                       style: |
                         ha-card {
-                          background: url("/local/themes/wedding.jpeg");
-                          background-size: cover;
-                          border-style: none;
-                          padding-top: 10px; /* Adjust the value as needed */
-                        }
+                         background: transparent;
+                         border-style: none;
+                         text-align: center;
+                         }
                     cards:
                       - type: vertical-stack
                         cards:
@@ -221,11 +216,10 @@ views:
                     card_mod:
                       style: |
                         ha-card {
-                          background: url("/local/themes/wedding.jpeg");
-                          background-size: cover;
-                          border-style: none;
-                          padding-top: 10px; /* Adjust the value as needed */
-                        }
+                         background: transparent;
+                         border-style: none;
+                         text-align: center;
+                         }
                     cards:
                       - type: vertical-stack
                         cards:
@@ -263,11 +257,10 @@ views:
                     card_mod:
                       style: |
                         ha-card {
-                          background: url("/local/themes/wedding.jpeg");
-                          background-size: cover;
-                          border-style: none;
-                          padding-top: 10px; /* Adjust the value as needed */
-                        }
+                         background: transparent;
+                         border-style: none;
+                         text-align: center;
+                         }
                     cards:
                       - type: vertical-stack
                         cards:
