@@ -1,0 +1,14 @@
+{
+  "name": "Aqua Flower Home Assistant Integration",
+  "content_in_root": false,
+  "country": "US",
+  "domains": [
+    "irrigation"
+  ],
+  "iot_class": "local_push",
+  "render_readme": true,
+  "homeassistant": "2021.4.0",
+  "filename": "custom_components/Aqua_Flower_HA/__init__.py",
+  "source": "https://github.com/theaquaflower/Aqua_Flower_HA",
+  "zip_release": false
+}

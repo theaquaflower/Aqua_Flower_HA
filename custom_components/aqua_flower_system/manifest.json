@@ -1,0 +1,9 @@
+{
+  "domain": "Aqua_Flower",
+  "name": "Aqua Flower",
+  "version": "1.0.0",
+  "documentation": "theaquaflower.com",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@theaquaflower"]
+}
