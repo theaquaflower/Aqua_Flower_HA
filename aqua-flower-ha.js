@@ -85,16 +85,17 @@ class AquaFlowerHa extends HTMLElement {
         card.innerHTML = `
           <ha-card>
             <h1>${cardConfig.title || ''}</h1>
-            ${cardConfig.entities.map(entity => `
-              <div class="entity">
-                <ha-entity-toggle
-                  .hass="${this._hass}"
-                  .stateObj="${this._hass.states[entity.entity]}"
-                ></ha-entity-toggle>
-              </div>
-            `).join('')}
           </ha-card>
         `;
+        cardConfig.entities.forEach(entity => {
+            const entityElement = document.createElement('div');
+            entityElement.className = 'entity';
+            const haEntityToggle = document.createElement('ha-entity-toggle');
+            haEntityToggle.hass = this._hass;
+            haEntityToggle.stateObj = this._hass.states[entity.entity];
+            entityElement.appendChild(haEntityToggle);
+            card.appendChild(entityElement);
+        });
         return card;
     }
 
@@ -110,4 +111,5 @@ class AquaFlowerHa extends HTMLElement {
     }
 }
 
-customElements.define('aqua_flower_ha', AquaFlowerHa);
+// Use a kebab-case name with a dash for custom element
+customElements.define('aqua-flower-ha', AquaFlowerHa);
