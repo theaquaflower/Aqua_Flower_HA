@@ -2,6 +2,6 @@
   "name": "Aqua-Flower-Card",
   "content_in_root": false,
   "render_readme": true,
-  "filename": "aqua-flower-card.js",
+  "filename": "aqua_flower_ha.js",
   "homeassistant": "2023.9.0"
 }
