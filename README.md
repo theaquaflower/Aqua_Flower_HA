@@ -13,7 +13,7 @@ This repository provides a preconfigured Lovelace dashboard for the Aqua Flower 
    - Go to HACS in Home Assistant.
    - Add this repository as a custom repository using the URL:
      ```
-     https://github.com/theaquaflower/Aqua_Flower_HA
+     https://github.com/theaquaflower/aqua-flower-ha
      ```
    - Select the appropriate category (`Plugin` or `Dashboard`).
 
