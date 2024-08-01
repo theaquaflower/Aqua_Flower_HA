@@ -102,4 +102,4 @@ class AquaFlowerCard extends HTMLElement {
   }
 }
 
-customElements.define('aqua-flower-card', AquaFlowerCard);
+customElements.define('aqua_flower_ha', AquaFlowerCard);
